@@ -5,4 +5,4 @@ class Api::GreetingsController < ApplicationController
     greetings = Greeting.offset(random_offset).first
     render json: greetings
   end
-end      
+end
